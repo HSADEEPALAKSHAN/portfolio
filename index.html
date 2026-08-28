@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sadeepa Lakshan | Creative Developer & Designer</title>
+<meta name="description" content="Sadeepa Lakshan — Graphic Designer, Video Editor, Frontend Developer and Creative Visual Artist.">
+<meta name="theme-color" content="#0b0f19">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sadeepatech.github.io/portfolio/">
+<meta property="og:title" content="Sadeepa Lakshan Portfolio">
+<meta property="og:description" content="Design. Code. Create.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sadeepatech.github.io/portfolio/">
+<meta property="og:image" content="https://sadeepatech.github.io/portfolio/sadeepa-tech-channel-logo.jpg">
+<meta property="og:image:alt" content="Sadeepa Lakshan creative portfolio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sadeepa Lakshan | Creative Portfolio">
+<meta name="twitter:description" content="Graphic design, video editing and frontend web development by Sadeepa Lakshan.">
+<meta name="twitter:image" content="https://sadeepatech.github.io/portfolio/sadeepa-tech-channel-logo.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0f19'/%3E%3Cpath d='M18 18h28v28H18z' fill='none' stroke='%2322d3ee' stroke-width='4'/%3E%3Cpath d='M25 27h14M25 35h9' stroke='%2322d3ee' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<script>
+tailwind.config={darkMode:'class',theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui'],display:['Space Grotesk','Inter','sans-serif']},colors:{ink:'#0B0F19',cyan:'#22D3EE'}}}};
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sadeepa Lakshan","jobTitle":"Graphic Designer, Video Editor and Frontend Developer","url":"https://sadeepatech.github.io/portfolio/","sameAs":["https://www.youtube.com/@sadeepatech","https://www.linkedin.com/in/sadeepa-lakshan/","https://github.com/sadeepas"],"email":"mailto:sadeepapemasiri2@gmail.com","address":{"@type":"PostalAddress","addressCountry":"LK"}}</script>
+<style>
+html{scroll-behavior:smooth}body{font-family:Inter,sans-serif;background:#0b0f19;color:#f8fafc;overflow-x:hidden}
+.font-display{font-family:"Space Grotesk",sans-serif}.glass{background:rgba(15,23,42,.62);border:1px solid rgba(148,163,184,.13);backdrop-filter:blur(16px)}
+.light body{background:#f5f7fb;color:#0f172a}.reveal{opacity:0;transform:translateY(28px);transition:all .7s cubic-bezier(.2,.7,.2,1)}.reveal.show{opacity:1;transform:none}
+.orb{position:absolute;border-radius:999px;filter:blur(70px);opacity:.28;pointer-events:none}.card{transition:transform .3s,box-shadow .3s,border-color .3s}.card:hover{transform:translateY(-7px);box-shadow:0 20px 60px rgba(0,0,0,.28);border-color:rgba(34,211,238,.35)}
+.navlink{position:relative}.navlink:after{content:"";position:absolute;left:0;bottom:-7px;width:0;height:2px;background:#22d3ee;transition:.25s}.navlink:hover:after{width:100%}
+.filter.active{background:#22d3ee;color:#041018}.project-img{aspect-ratio:16/10;object-fit:cover}
+#interactiveBg{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:#0b0f19}
+#interactiveBg:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 30%,rgba(2,5,13,.38) 100%)}
+body>header,body>main,body>footer{position:relative;z-index:1}#preloader,#modal{z-index:100!important}#topBtn{z-index:40!important}
+#cursorGlow{position:absolute;width:30rem;height:30rem;border-radius:50%;background:radial-gradient(circle,rgba(34,211,238,.065),rgba(34,211,238,.018) 38%,transparent 69%);transform:translate(-50%,-50%);transition:left .4s ease-out,top .4s ease-out;filter:blur(8px)}
+.bg-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(148,163,184,.026) 1px,transparent 1px),linear-gradient(90deg,rgba(148,163,184,.026) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(to bottom,black,transparent 78%)}
+.bg-orb{display:none}.particle{position:absolute;width:2px;height:2px;border-radius:50%;background:#a5f3fc;box-shadow:0 0 10px #22d3ee;opacity:.08;animation:floatParticle var(--duration) ease-in-out infinite alternate}
+@keyframes floatParticle{to{transform:translate3d(var(--drift),-24px,0);opacity:.34}}@keyframes ambientDrift{to{transform:translate3d(24px,-18px,0) scale(1.08)}}
+.project-card{position:relative;isolation:isolate}.project-card .project-img{transition:transform .65s cubic-bezier(.2,.7,.2,1)}.project-card:hover .project-img{transform:scale(1.07)}.project-card:hover{transform:translateY(-8px)}
+.timeline-card{transition:transform .45s cubic-bezier(.2,.7,.2,1),border-color .45s,box-shadow .45s}.timeline-card.show{transition-delay:var(--delay,0ms)}.timeline-card:hover{transform:translateX(9px);border-color:rgba(34,211,238,.4);box-shadow:0 20px 50px rgba(0,0,0,.22)}
+.stat-number{font-variant-numeric:tabular-nums}.gallery-image{aspect-ratio:16/10;object-fit:cover;transition:transform .3s}.gallery-image:hover{transform:scale(1.03)}
+.light body{color:#172033}.light #interactiveBg{background:radial-gradient(ellipse 65% 42% at 50% -10%,rgba(14,165,233,.12),transparent 72%),#f3f6fb}.light .bg-grid{opacity:.32}.light .glass{background:rgba(255,255,255,.78);border-color:rgba(30,41,59,.11);box-shadow:0 14px 35px rgba(15,23,42,.06)}.light .text-slate-400{color:#526176}.light .text-slate-500{color:#64748b}.light .bg-white\/\[\.02\]{background:rgba(15,23,42,.035)}
+.compare-frame{position:relative;overflow:hidden;aspect-ratio:16/10;border-radius:1rem;background:#111827}.compare-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.compare-frame .before-image{filter:grayscale(1) saturate(.35) brightness(.62);transform:scale(1.02)}.compare-frame .after-wrap{position:absolute;inset:0;width:56%;overflow:hidden;border-right:2px solid #fff}.compare-frame .after-wrap img{min-width:100%;filter:saturate(1.18) contrast(1.08)}.compare-range{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;z-index:3}.compare-handle{position:absolute;top:50%;left:56%;z-index:2;width:2.5rem;height:2.5rem;transform:translate(-50%,-50%);border:2px solid white;border-radius:999px;background:#22d3ee;color:#082f49;display:grid;place-items:center;pointer-events:none;box-shadow:0 5px 20px rgba(0,0,0,.4)}.compare-label{position:absolute;z-index:2;top:.75rem;padding:.3rem .55rem;border-radius:.45rem;background:rgba(2,6,23,.72);font-size:.68rem;font-weight:700;letter-spacing:.08em}.compare-label.before{right:.75rem}.compare-label.after{left:.75rem}.hire-cta{box-shadow:0 16px 36px rgba(34,211,238,.24)}
+.project-modal{opacity:0;transition:opacity .35s ease}.project-modal.modal-open{opacity:1}.modal-panel{transform:translateY(18px) scale(.76);opacity:0;transform-origin:var(--modal-origin,50% 50%);transition:transform .58s cubic-bezier(.16,1,.3,1),opacity .35s ease}.modal-open .modal-panel{transform:translateY(0) scale(1);opacity:1}.modal-panel>*{opacity:0;transform:translateY(12px);transition:opacity .38s ease,transform .45s cubic-bezier(.16,1,.3,1)}.modal-open .modal-panel>*{opacity:1;transform:none}.modal-open .modal-panel>*:nth-child(2){transition-delay:.08s}.modal-open .modal-panel>*:nth-child(3){transition-delay:.12s}.modal-open .modal-panel>*:nth-child(4){transition-delay:.16s}.modal-open .modal-panel>*:nth-child(5){transition-delay:.2s}.modal-open .modal-panel>*:nth-child(6){transition-delay:.24s}.modal-open .modal-panel>*:nth-child(7){transition-delay:.28s}
+@media (max-width:900px){
+  #home{min-height:auto;padding-top:5.5rem}
+  #home>.max-w-7xl{padding-top:1.75rem;padding-bottom:3.5rem;gap:3.25rem}
+  #home .reveal{min-width:0}
+  #home .inline-flex{margin-bottom:1.25rem;padding:.55rem .8rem;font-size:.78rem}
+  #heroName{font-size:2.45rem;line-height:1.05;letter-spacing:-.045em;overflow-wrap:anywhere}
+  #heroTitle{margin-top:1rem;font-size:1.05rem;line-height:1.55;overflow-wrap:anywhere}
+  #heroTagline{margin-top:1.1rem;font-size:1rem;line-height:1.7;overflow-wrap:anywhere}
+  #heroActions{display:grid!important;grid-template-columns:1fr 1fr;gap:.7rem;margin-top:1.7rem}
+  #heroActions>a{padding:.85rem .55rem;text-align:center;font-size:.9rem;white-space:nowrap}
+  #heroActions>a:last-child{grid-column:1/-1}
+  #heroSocials{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin-top:1.25rem}
+  #heroSocials>a{min-width:0;padding:.7rem .5rem;text-align:center;font-size:.78rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  #home .reveal.relative{max-width:25rem;margin:0 auto;width:100%}
+  #home .reveal.relative>.glass{padding:.7rem;border-radius:1.6rem;transform:rotate(0)}
+  #home .reveal.relative img{border-radius:1.15rem}
+  #home .reveal.relative .absolute.-bottom-5{left:.6rem;bottom:-1.6rem;padding:.7rem .85rem}
+  #filters{display:flex!important;flex-wrap:nowrap!important;max-width:100%;overflow-x:auto;overflow-y:hidden;gap:.55rem;padding:0 0 .55rem;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  #filters::-webkit-scrollbar{display:none}
+  #filters .filter{flex:0 0 auto;scroll-snap-align:start;white-space:nowrap}
+}
+</style>
+</head>
+<body class="bg-[#0B0F19] text-slate-100 selection:bg-cyan-300 selection:text-slate-950">
+<div id="interactiveBg" aria-hidden="true"><div class="bg-grid"></div><div id="cursorGlow"></div><div class="bg-orb bg-orb-one"></div><div class="bg-orb bg-orb-two"></div><div id="particles"></div></div>
+<div id="preloader" class="fixed inset-0 z-[100] bg-[#0B0F19] flex items-center justify-center">
+  <div class="text-center"><div class="relative w-20 h-20 mx-auto"><div class="absolute inset-0 rounded-3xl border-2 border-cyan-300/25 border-t-cyan-300 animate-spin"></div><div class="absolute inset-2 rounded-2xl bg-cyan-300/10 grid place-items-center"><span class="font-display font-bold text-cyan-300 text-xl">SL</span></div></div><p class="mt-5 font-medium text-slate-300">Preparing creative work</p><div class="w-36 h-1 rounded-full bg-white/10 mx-auto mt-3 overflow-hidden"><div class="h-full w-2/3 bg-cyan-300 rounded-full animate-pulse"></div></div></div>
+</div>
+
+<header class="fixed top-0 inset-x-0 z-50">
+  <nav class="max-w-7xl mx-auto px-5 py-4">
+    <div class="glass rounded-2xl px-5 py-3 flex items-center justify-between">
+      <a href="#home" class="font-display font-bold text-xl tracking-tight"><span class="text-cyan-300">S</span>adeepa<span class="text-slate-400"> Tech</span></a>
+      <div id="desktopNav" class="hidden lg:flex items-center gap-7 text-sm text-slate-300">
+        <a class="navlink" href="#home">Home</a><a class="navlink" href="#about">About</a><a class="navlink" href="#skills">Skills</a><a class="navlink" href="#projects">Projects</a><a class="navlink" href="#services">Services</a><a class="navlink" href="#timeline">Timeline</a><a class="navlink" href="#contact">Contact</a>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="themeBtn" class="w-10 h-10 rounded-xl glass hover:bg-white/10" aria-label="Toggle theme">☼</button>
+        <button id="menuBtn" class="lg:hidden w-10 h-10 rounded-xl glass">☰</button>
+      </div>
+    </div>
+    <div id="mobileNav" class="hidden mt-2 glass rounded-2xl p-4 lg:hidden">
+      <div class="grid gap-2 text-slate-300"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#timeline">Timeline</a><a href="#contact">Contact</a></div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="relative min-h-screen overflow-hidden flex items-start pt-24 sm:pt-28">
+ <div class="orb w-80 h-80 bg-cyan-400 -left-24 top-28"></div><div class="orb w-96 h-96 bg-purple-500 right-0 top-20"></div>
+ <div class="max-w-7xl mx-auto px-5 py-10 sm:py-14 grid lg:grid-cols-[1.2fr_.8fr] gap-14 items-center w-full">
+  <div class="reveal">
+   <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-cyan-200 mb-6"><span class="w-2 h-2 bg-cyan-300 rounded-full animate-pulse"></span><span id="availability">Available for freelance</span></div>
+   <p class="text-cyan-300 font-semibold mb-3">HELLO, I'M</p>
+   <h1 id="heroName" class="font-display text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight">Sadeepa Lakshan</h1>
+   <h2 id="heroTitle" class="mt-5 text-xl sm:text-2xl text-slate-300">Graphic Designer • Video Editor • Frontend Developer • Creative Visual Artist</h2>
+   <p id="heroTagline" class="mt-6 max-w-2xl text-slate-400 text-lg leading-8">I turn ideas into striking visuals, memorable brands and fast, beautiful digital experiences.</p>
+   <div id="heroActions" class="flex flex-wrap gap-3 mt-8">
+    <a href="#projects" class="px-6 py-3.5 rounded-xl bg-cyan-300 text-white font-bold hover:bg-cyan-200 transition">View My Work ↗</a>
+    <a href="#contact" class="px-6 py-3.5 rounded-xl glass font-semibold hover:bg-white/10 transition">Contact Me</a>
+    <a id="cvBtn" href="CV.pdf" download="Sadeepa-Lakshan-CV.pdf" class="px-6 py-3.5 rounded-xl border border-slate-700 text-slate-300 hover:border-cyan-300/50 transition">Download CV</a>
+   </div>
+   <div id="heroSocials" class="flex gap-4 mt-8 text-slate-400"></div>
+  </div>
+  <div class="reveal relative">
+   <div class="absolute inset-5 rounded-[3rem] bg-cyan-300/10 blur-3xl"></div>
+   <div class="relative glass rounded-[2rem] p-4 rotate-2 hover:rotate-0 transition duration-500">
+    <img id="profileImage" class="w-full aspect-square object-cover rounded-[1.5rem]" src="sadeepa-profile.png" alt="Sadeepa Lakshan profile">
+    <div class="absolute -bottom-5 -left-5 glass rounded-2xl px-5 py-4"><div class="text-xs text-slate-400">Creative mindset</div><div class="font-display font-bold">Design × Code</div></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="about" class="py-32">
+ <div class="max-w-7xl mx-auto px-5">
+  <div class="reveal mb-12"><p class="text-cyan-300 font-semibold">ABOUT ME</p><h2 class="font-display text-4xl sm:text-5xl font-bold mt-2">Creative work with a technical edge.</h2></div>
+  <div class="grid lg:grid-cols-2 gap-10">
+   <div class="reveal glass rounded-3xl p-7 sm:p-9 text-slate-400 leading-8 space-y-5 relative overflow-hidden"><span class="absolute -right-4 -top-9 text-cyan-300/10 font-display text-9xl font-bold">“</span><p id="bio1" class="relative">I'm Sadeepa Lakshan, a multidisciplinary creative focused on graphic design, video editing, branding and frontend development.</p><p id="bio2" class="relative">I enjoy combining visual storytelling with technology to build work that looks polished, communicates clearly and feels modern.</p><p id="bio3" class="relative">My goal is simple: create useful, memorable digital experiences that help ideas stand out.</p><div class="relative border-l-2 border-cyan-300/70 pl-4 pt-1 text-slate-300 italic">Design with intention. Build with curiosity.</div></div>
+   <div id="stats" class="grid grid-cols-2 gap-4 reveal"></div>
+  </div>
+ </div>
+</section>
+
+<section id="skills" class="py-32">
+ <div class="max-w-7xl mx-auto px-5"><div class="reveal mb-12"><p class="text-cyan-300 font-semibold">SKILLS</p><h2 class="font-display text-4xl sm:text-5xl font-bold mt-2">Tools I use to create.</h2></div><div id="skillsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"></div></div>
+</section>
+
+<section id="features" class="py-20">
+ <div class="max-w-7xl mx-auto px-5"><div class="reveal text-center max-w-2xl mx-auto mb-10"><p class="text-cyan-300 font-semibold">FEATURES</p><h2 class="font-display text-3xl sm:text-4xl font-bold mt-2">Built for ideas that need to stand out.</h2></div><div id="featuresGrid" class="grid md:grid-cols-3 gap-5"></div></div>
+</section>
+
+<section id="projects" class="py-32">
+ <div class="max-w-7xl mx-auto px-5">
+  <div class="reveal flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10"><div><p class="text-cyan-300 font-semibold">PORTFOLIO</p><h2 class="font-display text-4xl sm:text-5xl font-bold mt-2">Selected projects.</h2></div><div id="filters" class="flex flex-wrap gap-2"></div></div>
+  <div id="projectsGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+ </div>
+</section>
+
+<section id="transformations" class="py-24">
+ <div class="max-w-7xl mx-auto px-5">
+  <div class="reveal flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10"><div><p class="text-cyan-300 font-semibold">BEFORE &amp; AFTER</p><h2 class="font-display text-4xl sm:text-5xl font-bold mt-2">Creative transformations.</h2></div><p class="max-w-md text-slate-400 leading-7">Drag across each image to compare the raw visual direction with the finished colour, contrast and composition.</p></div>
+  <div id="comparisonGallery" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+ </div>
+</section>
+
+<section id="services" class="py-32">
+ <div class="max-w-7xl mx-auto px-5"><div class="reveal mb-12"><p class="text-cyan-300 font-semibold">SERVICES</p><h2 class="font-display text-4xl sm:text-5xl font-bold mt-2">How I can help.</h2></div><div id="servicesGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5"></div></div>
+</section>
+
+<section id="timeline" class="py-32">
+ <div class="max-w-5xl mx-auto px-5"><div class="reveal mb-12"><p class="text-cyan-300 font-semibold">JOURNEY</p><h2 class="font-display text-4xl sm:text-5xl font-bold mt-2">Experience & milestones.</h2></div><div id="timelineGrid" class="relative border-l border-slate-700 ml-3 space-y-10"></div></div>
+</section>
+
+<section id="contact" class="py-32">
+ <div class="max-w-7xl mx-auto px-5 grid lg:grid-cols-[.8fr_1.2fr] gap-12">
+  <div class="reveal"><p class="text-cyan-300 font-semibold">CONTACT</p><h2 class="font-display text-4xl sm:text-5xl font-bold mt-2">Let's work together.</h2><p class="text-slate-400 leading-8 mt-6">Have a project, collaboration or idea? Send a message and let's make it happen.</p><div id="contactInfo" class="mt-8 space-y-4"></div><div id="contactSocials" class="flex flex-wrap gap-3 mt-7"></div></div>
+  <form id="contactForm" class="reveal glass rounded-3xl p-6 sm:p-8 space-y-5">
+   <div class="grid sm:grid-cols-2 gap-5"><label class="text-sm text-slate-400">Name<input required name="name" class="mt-2 w-full bg-black/20 border border-slate-700 rounded-xl px-4 py-3 outline-none focus:border-cyan-300" /></label><label class="text-sm text-slate-400">Email<input required type="email" name="email" class="mt-2 w-full bg-black/20 border border-slate-700 rounded-xl px-4 py-3 outline-none focus:border-cyan-300" /></label></div>
+   <label class="text-sm text-slate-400">Subject<input required name="subject" class="mt-2 w-full bg-black/20 border border-slate-700 rounded-xl px-4 py-3 outline-none focus:border-cyan-300" /></label>
+   <label class="text-sm text-slate-400">Message<textarea required name="message" rows="6" class="mt-2 w-full bg-black/20 border border-slate-700 rounded-xl px-4 py-3 outline-none focus:border-cyan-300"></textarea></label>
+   <button class="w-full py-3.5 rounded-xl bg-cyan-300 text-white font-bold">Send via Email</button>
+   <p class="text-xs text-slate-500">This single-file version opens your email app. Connect EmailJS/Formspree later for server-side sending.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="border-t border-white/10">
+ <div class="max-w-7xl mx-auto px-5 py-10 flex flex-col md:flex-row md:items-center justify-between gap-5"><div><div class="font-display font-bold text-xl">Sadeepa Tech</div><p id="footerText" class="text-sm text-slate-500 mt-2">Design. Code. Create.</p></div><div id="footerSocials" class="flex flex-wrap gap-2"></div><div class="text-sm text-slate-500">© <span id="footerYear"></span> Sadeepa Tech / H. Sadeepa Lakshan Pemasiri</div></div>
+</footer>
+<button id="topBtn" class="fixed right-5 sm:right-7 bottom-6 sm:bottom-8 z-40 w-12 h-12 rounded-full bg-cyan-300 text-slate-950 font-bold shadow-xl shadow-cyan-300/20 hover:bg-cyan-200 hover:scale-110 transition" aria-label="Back to top" title="Back to top"><i class="bx bx-up-arrow-alt text-2xl"></i></button>
+<a id="hireMeBtn" target="_blank" rel="noopener" class="hire-cta fixed left-5 sm:left-7 bottom-6 sm:bottom-8 z-40 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-bold text-slate-950 hover:scale-105 hover:bg-[#36e878] transition" aria-label="Hire me on WhatsApp"><i class="bx bxl-whatsapp text-xl"></i><span>Hire Me</span></a>
+
+<div id="modal" class="project-modal hidden fixed inset-0 z-[80] bg-black/75 backdrop-blur-sm p-5 place-items-center"><div class="modal-panel glass max-w-4xl w-full max-h-[90vh] overflow-auto rounded-3xl p-6 sm:p-8"><button id="closeModal" class="float-right w-10 h-10 rounded-xl bg-white/10 hover:bg-red-400/20 hover:text-red-200 transition text-xl" aria-label="Close project details"><i class="bx bx-x"></i></button><img id="modalImg" class="w-full rounded-2xl mb-6 max-h-96 object-cover"><p id="modalCat" class="text-cyan-300 text-sm font-semibold"></p><h3 id="modalTitle" class="font-display text-3xl font-bold mt-2"></h3><p id="modalDesc" class="text-slate-400 leading-7 mt-4"></p><a id="modalLink" target="_blank" rel="noopener" class="hidden inline-flex items-center gap-2 mt-5 px-5 py-3 rounded-xl bg-white text-slate-950 font-bold hover:bg-slate-200 transition">Visit project <i class="bx bx-link-external"></i></a><div id="modalTags" class="flex flex-wrap gap-2 mt-5"></div><div id="modalGallery" class="grid sm:grid-cols-2 gap-4 mt-7"></div></div></div>
+
+<script>
+const defaultData={
+name:"Sadeepa Lakshan",
+title:"Graphic Designer • Video Editor • Frontend Developer • Creative Visual Artist",
+tagline:"I turn ideas into striking visuals, memorable brands and fast, beautiful digital experiences.",
+availability:"Available for freelance",
+profileImage:"sadeepa-profile.png",
+bio:["I'm Sadeepa Lakshan, a multidisciplinary creative focused on graphic design, video editing, branding and frontend development.","I enjoy combining visual storytelling with technology to build work that looks polished, communicates clearly and feels modern.","My goal is simple: create useful, memorable digital experiences that help ideas stand out."],
+stats:[["Projects","25+"],["Clients","15+"],["Skills","6+"],["YouTube","100+ videos"]],
+skills:[
+["Graphic Design","Photoshop • Illustrator • Canva",92,"✦"],["Video Editing","Premiere Pro • After Effects • CapCut",88,"▶"],["Frontend Development","HTML • CSS • JavaScript • React",86,"</>"],["Logo & Branding","Identity • Brand systems • Guidelines",90,"◈"],["YouTube Thumbnails","High CTR • Channel visuals • Covers",94,"▣"],["T-Shirt Design","Merchandise • Print-ready artwork",84,"✚"]],
+projects:[
+["Modern SaaS Landing Page","A polished responsive landing page focused on conversion and clean visual hierarchy.","Web Development","HTML • CSS • JavaScript","https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1000&q=80"],
+["YouTube Channel Branding","A complete visual direction for a modern technology-focused creator channel.","YouTube Thumbnails","Photoshop • Canva • Branding","https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1000&q=80"],
+["Animated Logo Reveal","A short logo animation concept designed for social media intros and video branding.","Video Editing","After Effects • Motion Design","https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1000&q=80"],
+["Sadeepa Tech — YouTube Channel","Technology tutorials and practical builds for creators, students and DIY makers.","Video Editing","Channel Branding • Tech Content • Video Editing","sadeepa-tech-channel-logo.jpg","Sadeepa Tech is a technology channel for tech enthusiasts, engineering and computer science students, DIY makers, and beginner-to-intermediate developers. The channel covers step-by-step ESP32 and Arduino projects, sensors, displays and relay modules; modern web-development guides with HTML, Tailwind CSS and JavaScript; PC hardware reviews and comparisons; plus software reviews, unboxings and clear tech explanations.","sadeepa-tech-channel-logo.jpg","https://www.youtube.com/@sadeepatech"],
+["Epic Cut Trailers — YouTube Channel","High-energy cinematic edits, trailers and promotional cuts for movie fans.","Video Editing","Trailer Editing • Cinematic Cuts • Sound Design","epic-cut-trailers-logo.png","Epic Cut Trailers delivers high-energy movie and TV teasers, concept and fan trailers, AI-generated creative trailers, fictional movie promos and custom cinematic edits. Built for movie buffs and viewers who enjoy quick updates on new and upcoming releases, each cut focuses on dramatic pacing, highlight moments and sound-design-led storytelling.","epic-cut-trailers-logo.png","https://www.youtube.com/@EpicCutTrailers/videos"],
+["Sadeepa Tech Landing Page","A responsive technology landing page introducing Sadeepa Tech with a clear, modern digital presence.","Frontend Web Development","HTML • CSS • JavaScript","sadeepa-tech-landing-preview.png","A polished landing page for Sadeepa Tech, designed to showcase the channel's technology-focused identity. The layout combines an engaging hero area, clear calls to action and responsive presentation for visitors across desktop and mobile devices.","sadeepa-tech-landing-preview.png","https://sadeepatech.github.io/SADEEPA-TECH-landing-page/"],
+["Science Day Innovative Website","An interactive Science Day experience built to present innovation, discovery and student creativity.","Frontend Web Development","HTML • CSS • JavaScript","https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=85","A science-focused event website that turns Science Day content into a clear, engaging online experience. It uses a modern visual direction to highlight innovation, exploration and educational activities for students and visitors.","https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=85","https://sdeepalakshan45-cyber.github.io/science-day-innovative-/"],
+["Science Day Mathematics Website","A mathematics-themed Science Day website that makes learning and event information more engaging.","Frontend Web Development","HTML • CSS • JavaScript","https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=85","A dedicated mathematics website created for Science Day. The responsive interface presents maths-related content in an approachable way, combining an educational purpose with a clean, modern web design.","https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=85","https://lakshansadee928-sketch.github.io/science-day-maths-website/"],
+["E-commerce T-Shirt Collection","Bold merchandise concepts prepared for digital promotion and print production.","T-Shirt Designs","Illustrator • Photoshop","https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=80"],
+["Tech Brand Identity","Logo, typography and social media direction for a fictional technology startup.","Logos","Illustrator • Figma","https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1000&q=80"],
+["Gaming Thumbnail Pack","High-energy thumbnail concepts built around clear focal points and strong contrast.","YouTube Thumbnails","Photoshop • Canva","https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1000&q=80"],
+["Creative Portfolio UI","A responsive portfolio interface with dark-mode aesthetics and subtle interactions.","Web Development","HTML • Tailwind • JavaScript","https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1000&q=80"],
+["Modern Minimalist & Luxury Brand Identity Suite","Premium minimalist identities for tech, luxury, creative and e-commerce brands, designed for clarity at every scale.","Logo Design","Adobe Illustrator • Vector Design • Brand Strategy","photo.png","Developed a versatile collection of premium, minimalist brand identities that turns complex values into high-impact vector symbols. Apexora and Pixelion use clean monograms and negative space; Noire brings high-end fashion typography; Shoply combines a shopping bag and a friendly smile for instant trust.","photo.png",""],
+["Minimalist & Modern Corporate Logo Design","A scalable identity collection balancing corporate authority, creative expression and modern visual appeal.","Logo Design","Adobe Illustrator • Vector Design • Typography","photo2.png","Created a flexible visual identity system for construction and creative brands. Solidsculpt uses a bold architectural mark; The Symphony and Anna Velychko use elegant custom typography; Studio Shodwe pairs a camera-inspired emblem with a premium gold-on-black treatment. Every asset is print- and web-ready.","photo2.png",""],
+["Modern Minimalist Logo & Brand Identity Design","A diverse collection of clean, timeless brand marks made to feel premium in both dark and light applications.","Logo Design","Adobe Illustrator • Logo Design • Brand Identity","photo3.png","Designed distinct identities across fashion, tech, non-profit and construction sectors. Annura Styles uses bold fashion geometry, while AuraMotion and SolidSculpt use abstract forms to communicate motion and structure. Each final vector mark is memorable, versatile and ready to scale.","photo3.png",""],
+["MrBeast-Style CTR-Boosting YouTube Thumbnail","A high-energy challenge thumbnail designed to communicate huge stakes, scale and excitement in a single glance.","YouTube Thumbnail Design","Photoshop • Photo Manipulation • Color Grading","thumbnail1.png","Designed a viral-style challenge thumbnail with a crowd of 100 players, a central host, and a $500,000 prize. Careful masking, layered depth, bold yellow-red typography, background blur and cinematic color grading keep the layout clear and highly clickable on desktop and mobile.","thumbnail1.png",""],
+["High-Click AI Tech YouTube Thumbnail Design","A striking AI and productivity thumbnail built for clarity, branding and maximum click-through rate.","YouTube Thumbnail Design","Photoshop • Typography • Photo Manipulation","thumbnail2.png","Created a split-image composition pairing a futuristic robot portrait with bold, high-contrast AI messaging. The visual hierarchy, two-color typography and small robotic brand elements communicate the video value instantly without clutter.","thumbnail2.png",""],
+["High-Click Tech Unboxing YouTube Thumbnail","A bold OnePlus Nord 4 unboxing thumbnail that balances product specifications with a high-energy curiosity hook.","YouTube Thumbnail Design","Photoshop • Product Compositing • Color Grading","thumbnail3.png","Built a clean vertical icon stack for processor, camera, battery and display specs, then paired it with expressive creator imagery, product cutouts and brush-stroke typography. Sharp masking, glow effects and balanced color grading make it stand out in a crowded tech feed.","thumbnail3.png",""],
+["High-CTR Finance YouTube Thumbnail Design","A cinematic personal-finance thumbnail designed to make wealth-building content feel immediate, clear and aspirational.","YouTube Thumbnail Design","Photoshop • Visual Storytelling • Typography","thumbnail4.png","Used a premium black, green and yellow palette with an expressive subject, readable three-tone typography, investment iconography and a glowing growth chart. The design turns complex financial ideas into an emotionally engaging message that reads in under two seconds.","thumbnail4.png",""],
+["High-CTR Gaming YouTube Thumbnail Designs","An action-packed PUBG thumbnail optimized for gaming-video clicks with explosive energy and clear mobile-first text hierarchy.","YouTube Thumbnail Design","Photoshop • Gaming Art • Photo Manipulation","thumbnail5.png","Created a high-impact gameplay design using crisp character isolation, explosion effects, dynamic brush typography and high-contrast yellow, white and red accents. The visual keeps the action intense while making the core hook easy to read at small sizes.","thumbnail5.png",""],
+["Social Media Graphics","A coordinated visual pack for promotional posts, announcements and campaigns.","Graphic Design","Photoshop • Canva","https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&w=1000&q=80"]],
+services:[["Logo & Brand Identity Design","Build a recognizable visual identity with logo, colors and supporting assets.","◈"],["YouTube Thumbnail & Channel Art","Eye-catching creator visuals designed for clarity and clicks.","▣"],["Video Editing & Motion Graphics","Clean edits, transitions, titles and motion graphics for modern content.","▶"],["Frontend Web Development","Responsive websites that are fast, accessible and visually polished.","</>"],["T-Shirt & Merchandise Design","Print-ready creative artwork for apparel and merchandise.","✚"],["Social Media Graphics Package","Consistent social visuals for launches, promotions and campaigns.","✦"]],
+features:[["Visual-first thinking","Clear, memorable creative work built around your goals and audience.","bx-palette"],["Modern web craft","Responsive interfaces that feel fast, polished, and easy to use.","bx-code-alt"],["Ready to launch","A focused process from idea to final assets, ready for your audience.","bx-rocket"]],
+timeline:[["2026","Creative Portfolio & Web Projects","Building modern frontend experiences and expanding design services."],["2025","YouTube & Design Growth","Created technology/gaming content while developing graphic and thumbnail skills."],["2023","YouTube Channel Started","Started creating and sharing YouTube content."],["2023","Web Development Started","Began learning and building websites with frontend technologies."],["2022","Video Editing Started","Started my video editing journey and developed creative editing skills."],["2021","Graphic Design Started","Started learning graphic design and creating visual work."]],
+contact:{email:"sadeepapemasiri2@gmail.com",location:"Sri Lanka"},
+socials:[["YouTube","https://www.youtube.com/@sadeepatech"],["Telegram","https://t.me/SADEEPA_TECH"],["WhatsApp","https://whatsapp.com/channel/0029VbD0ZsEA2pLKPEYSQd2w"],["LinkedIn","https://www.linkedin.com/in/sadeepa-lakshan/"],["GitHub","https://github.com/sadeepas"],["Blog","https://slsadeepatec.blogspot.com/"]],
+footer:"Design. Code. Create."
+};
+const thumbnailDetails={
+"MrBeast-Style CTR-Boosting YouTube Thumbnail":`Client Goal: The client wanted a high-energy, viral-style YouTube thumbnail reminiscent of massive challenge videos to maximize CTR (Click-Through Rate) for a competitive gaming/challenge video. The primary goal was to instantly convey high stakes, immense scale and intense excitement.\n\nChallenges & Solution: The main challenge was seamlessly integrating a massive crowd of 100 players without making the layout look cluttered. I meticulously masked and layered the contestants, using a slight background blur to maintain focus on the main character. To ensure viewers immediately grasped the concept, I placed the main host in the center foreground with a dynamic pointing gesture. I used bold, high-contrast typography ("100 PEOPLE VS $500,000") with bright yellow and red accents to draw the eye instantly. I color-graded the whole composition for a vibrant, premium cinematic look and added bright green glows to the money pile so the ultimate prize pops against the blue sky.\n\nResults: Delivered a high-resolution, scroll-stopping thumbnail optimized for both mobile and desktop feeds.\n\nPrice range: Up to $50 | Project duration: 1-7 days | Industries: Marketing & Advertising +1`,
+"High-Click AI Tech YouTube Thumbnail Design":`Client Goal: This project focused on a highly engaging YouTube thumbnail for a technology and productivity channel. The client wanted to increase CTR for a video about using Artificial Intelligence to simplify daily life. The design needed to be visually striking, immediately communicate the core value proposition and look professional.\n\nChallenges & Solution: The challenge was balancing a complex subject—AI and robotics—with clean, easy-to-read text on a small screen. I resolved this with a split-image layout: a detailed futuristic robot portrait on one side and strong, high-contrast typography on the other. To maximize engagement, I used bold, clear fonts with a distinct two-color hierarchy, highlighting “AI” and “TASKS EASIER” in contrasting colors. I also integrated subtle, brand-specific elements such as the custom robotic lion logo behind the ear and small friendly robot avatars in the background, adding depth without cluttering the message.\n\nResults: A vibrant, professional thumbnail optimized to capture attention in a crowded YouTube feed.\n\nPrice range: Up to $50 | Project duration: 1-7 days | Industries: Digital Arts +3`,
+"High-Click Tech Unboxing YouTube Thumbnail":`Client Goal: The client needed a high-CTR, professional YouTube thumbnail for a tech unboxing video featuring the OnePlus Nord 4. The goal was to capture immediate attention in a crowded tech niche, emphasize key device specifications and create an emotional hook.\n\nChallenges & Solution: Fitting Processor, Camera, Battery and Display information without cluttering the canvas was the first challenge. I used a clean vertical icon stack on the left with high-contrast yellow typography for maximum mobile readability. To create an engaging focal point, I placed the creator front-and-center with a high-energy expression, flanked by crisp cutouts of the product packaging and the phone. Bright brush-stroke typography—“GAME CHANGER!” and “WORTH IT?”—adds a powerful curiosity hook.\n\nResults: A vibrant, balanced and highly clickable tech thumbnail using professional color grading, sharp masking and strategic glow effects.\n\nPrice range: Up to $50 | Project duration: 1-7 days | Industries: Marketing & Advertising +2`,
+"High-CTR Finance YouTube Thumbnail Design":`Client Goal: The client needed a high-performance, cinematic YouTube thumbnail for a personal finance and wealth-building video. The objective was to maximize CTR in a highly competitive niche.\n\nChallenge: Finance content can feel visually cluttered or dry. The work needed to turn complex financial concepts—investing, saving and market growth—into a single, instantly readable and emotionally engaging frame in under two seconds.\n\nSolution: I developed a high-impact layout featuring a realistic, emotionally expressive subject to create immediate trust. Bold, textured three-tone typography (“SMART MONEY BUILDS WEALTH”) keeps the message perfectly readable on mobile screens. A premium black, vibrant green and sharp yellow palette reinforces wealth, growth and financial success. Custom iconography for Invest Wisely, Save More and Financial Freedom, together with a crisp glowing stock-market growth chart, frames the video value at a glance. Advanced color grading, precise subject isolation and intentional lighting make the thumbnail stand out in dark or light YouTube modes.\n\nPrice range: Up to $50 | Project duration: 1-7 days | Industries: Financial Trading +1`,
+"High-CTR Gaming YouTube Thumbnail Designs":`Client Goals & Overview: The client needed high-CTR gaming thumbnails that stand out in a crowded feed, drive clicks and boost engagement for gameplay videos and live streams.\n\nChallenges & Creative Solutions: The central challenge was balancing intense gaming action with clean, readable text on a small mobile canvas. For the gameplay style, I created an action-packed PUBG thumbnail with sharp character isolation, background explosions and a bold textured font using high-contrast yellow and white for maximum visibility. For the stream style, I designed a sleek dark minimalist layout with a glowing center character, clean typography and subtle controller accents to announce the live stream clearly.\n\nResults: Delivered two distinct, high-impact thumbnail styles optimized for maximum click-through rates.\n\nPrice range: Up to $50 | Project duration: 1-7 days | Industries: Game Art +2`
+};
+const logoDetails={
+"Modern Minimalist & Luxury Brand Identity Suite":`The Client & Goal: Developed a versatile collection of premium, minimalist brand identities across tech, luxury, creative and e-commerce sectors, turning complex values into high-impact vector symbols.\n\nThe Challenge: Crafting distinct emotional tones for each brand—such as luxury gold for wellness versus dynamic geometry for tech—while ensuring maximum legibility and scaling from giant print media down to a tiny website favicon.\n\nThe Solution: Created tailored visual identities using strategic color psychology, negative space and custom typography. Apexora & Pixelion use monograms with clean angles and negative space. Noire uses sleek, high-end fashion typography. Shoply combines a shopping bag and a friendly smile to build instant consumer trust.\n\nPrice range: $100-$200 | Project duration: 7-30 days | Industries: Agriculture +5`,
+"Minimalist & Modern Corporate Logo Design":`Client & Goals: The client required a versatile, minimalist visual identity system capable of scaling across diverse industries—from corporate construction to creative photography studios. The goal was to deliver clean, modern logo concepts that balance professional authority with contemporary appeal.\n\nChallenges: The primary challenge was ensuring extreme versatility. Each logo needed to maintain distinct legibility and impact across completely different mediums, from high-contrast dark backgrounds to vibrant digital displays and delicate print typography.\n\nSolution & Results: Using a precise vector design workflow, I developed diverse brand marks. Solidsculpt Constructions uses a bold, geometric architectural icon optimized for high-contrast dark and light blue backgrounds. The Symphony & Anna Velychko use fluid, elegant custom typography and fine line art for high-end creative brands. Studio Shodwe Photography uses a sleek, camera-themed negative-space emblem in a premium gold-on-black palette. All assets were delivered as fully scalable, print- and web-ready vectors, leaving the client with a future-proof identity.\n\nPrice range: $50-$100 | Project duration: 1-7 days | Industries: Art & Design +3`,
+"Modern Minimalist Logo & Brand Identity Design":`This project highlights a diverse collection of custom, high-impact minimalist logos crafted across multiple industries—from corporate tech and fashion branding to non-profits and construction.\n\nClient Goals: The objective was to deliver clean, professional and timeless visual identities for clients looking to establish a strong market presence. The designs needed to look premium, adapt seamlessly across dark and light modes, and communicate each brand's core values at a single glance.\n\nChallenges & Solutions: Each brand required a distinct mood. Annura Styles needed a bold, geometric fashion mark, while The Symphony demanded elegant, fluid typography; I researched each industry to ensure the creative direction was spot-on. In minimalist design, every line counts, so for AuraMotion and SolidSculpt I used clean geometry and abstract lines to represent motion and structure without cluttering the visual space.\n\nThe final delivery resulted in highly scalable, versatile vector logos that gave each business a memorable, modern face.\n\nPrice range: $100-$200 | Project duration: 1-7 days | Industries: Fashion Design +3`
+};
+const originalPageTitle=document.title;
+let data=JSON.parse(localStorage.getItem("sadeepaPortfolioData")||"null")||defaultData;
+data.profileImage='sadeepa-profile.png';
+const defaultProjectLinks=Object.fromEntries(defaultData.projects.filter(project=>project[7]).map(project=>[project[0],project[7]]));
+const videoEditingService=defaultData.services.find(service=>service[0]==='Video Editing & Motion Graphics');
+if(videoEditingService&&!data.services.some(service=>service[0]===videoEditingService[0]))data.services.push(videoEditingService);
+const journeyMilestones=defaultData.timeline.filter(item=>['YouTube Channel Started','Web Development Started','Video Editing Started','Graphic Design Started'].includes(item[1]));
+data.timeline=data.timeline.filter(item=>!['Frontend Development','Design Journey'].includes(item[1]));journeyMilestones.forEach(item=>{if(!data.timeline.some(current=>current[1]===item[1]))data.timeline.push(item)});data.timeline.sort((a,b)=>Number(b[0])-Number(a[0]));
+defaultData.projects.filter(p=>['Logo Design','YouTube Thumbnail Design'].includes(p[2])||['Sadeepa Tech — YouTube Channel','Epic Cut Trailers — YouTube Channel','Sadeepa Tech Landing Page','Science Day Innovative Website','Science Day Mathematics Website'].includes(p[0])).forEach(project=>{if(!data.projects.some(current=>current[0]===project[0]))data.projects.push(project)});data.projects.forEach(project=>{if(defaultProjectLinks[project[0]])project[7]=defaultProjectLinks[project[0]];if(thumbnailDetails[project[0]])project[5]=thumbnailDetails[project[0]];if(logoDetails[project[0]])project[5]=logoDetails[project[0]]});
+const esc=s=>String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+function render(){
+ heroName.textContent=data.name;heroTitle.textContent=data.title;heroTagline.textContent=data.tagline;availability.textContent=data.availability;profileImage.src=data.profileImage;
+ bio1.textContent=data.bio[0];bio2.textContent=data.bio[1];bio3.textContent=data.bio[2];footerText.textContent=data.footer;
+ stats.innerHTML=data.stats.map(x=>`<div class="glass rounded-2xl p-6"><div class="font-display text-3xl font-bold stat-number" data-count="${esc(x[1])}">0</div><div class="text-slate-500 mt-1">${esc(x[0])}</div></div>`).join("");
+ skillsGrid.innerHTML=data.skills.map(s=>`<div class="reveal card glass rounded-2xl p-6"><div class="flex items-center justify-between"><div class="w-12 h-12 rounded-xl bg-cyan-300/10 text-cyan-300 grid place-items-center text-xl">${esc(s[3])}</div><span class="text-cyan-300 font-bold">${s[2]}%</span></div><h3 class="font-display text-xl font-bold mt-5">${esc(s[0])}</h3><p class="text-sm text-slate-500 mt-2">${esc(s[1])}</p><div class="h-1.5 bg-slate-800 rounded-full mt-5"><div class="h-full bg-cyan-300 rounded-full" style="width:${Math.min(100,Number(s[2])||0)}%"></div></div></div>`).join("");
+ const cats=["All",...new Set(data.projects.map(p=>p[2]))];filters.innerHTML=cats.map((c,i)=>`<button class="filter ${i===0?"active":""} px-3 py-2 rounded-lg border border-slate-700 text-xs text-slate-300" data-filter="${esc(c)}">${esc(c)}</button>`).join("");
+ document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));b.classList.add("active");renderProjects(b.dataset.filter)});
+ renderProjects("All");
+ const comparisons=[['Epic Cut Trailers — YouTube Channel','Cinematic trailer edit','Raw scene → cinematic grade'],['MrBeast-Style CTR-Boosting YouTube Thumbnail','YouTube thumbnail design','Base image → high-CTR composition'],['Modern Minimalist & Luxury Brand Identity Suite','Brand identity design','Simple mark → polished identity']].map(([name,title,caption])=>{const project=data.projects.find(item=>item[0]===name);return project&&[project[4],title,caption]}).filter(Boolean);comparisonGallery.innerHTML=comparisons.map(([image,title,caption])=>`<article class="reveal card glass rounded-3xl p-4"><div class="compare-frame"><img class="before-image" src="${esc(image)}" alt="${esc(title)} before editing"><div class="after-wrap"><img src="${esc(image)}" alt="${esc(title)} final edit"></div><span class="compare-label before">BEFORE</span><span class="compare-label after">AFTER</span><span class="compare-handle"><i class="bx bx-left-right-alt"></i></span><input class="compare-range" type="range" min="0" max="100" value="56" aria-label="Compare before and after for ${esc(title)}"></div><h3 class="font-display text-lg font-bold mt-5">${esc(title)}</h3><p class="text-sm text-slate-400 mt-2">${esc(caption)}</p></article>`).join("");comparisonGallery.querySelectorAll('.compare-range').forEach(input=>input.oninput=()=>{const frame=input.closest('.compare-frame'),value=`${input.value}%`;frame.querySelector('.after-wrap').style.width=value;frame.querySelector('.compare-handle').style.left=value});
+ servicesGrid.innerHTML=data.services.map(s=>`<div class="reveal card glass rounded-2xl p-6"><div class="text-cyan-300 text-2xl">${esc(s[2])}</div><h3 class="font-display text-xl font-bold mt-5">${esc(s[0])}</h3><p class="text-slate-400 leading-7 mt-3">${esc(s[1])}</p><a href="#contact" class="inline-block mt-5 text-cyan-300 text-sm font-semibold">Get Quote →</a></div>`).join("");
+ featuresGrid.innerHTML=(data.features||defaultData.features).map(f=>`<div class="reveal glass rounded-2xl p-6"><i class="bx ${esc(f[2])} text-3xl text-cyan-300"></i><h3 class="font-display text-xl font-bold mt-5">${esc(f[0])}</h3><p class="text-slate-400 leading-7 mt-3">${esc(f[1])}</p></div>`).join("");
+ timelineGrid.innerHTML=data.timeline.map((t,i)=>`<div class="reveal timeline-card relative pl-8 glass rounded-2xl p-6 sm:p-7" style="--delay:${i*120}ms"><span class="absolute -left-[7px] top-8 w-3 h-3 rounded-full bg-cyan-300 ring-8 ring-[#0B0F19]"></span><div class="flex items-center gap-3"><span class="w-9 h-9 rounded-xl bg-cyan-300/10 text-cyan-300 grid place-items-center"><i class="bx bx-rocket"></i></span><div class="text-cyan-300 text-sm font-bold">${esc(t[0])}</div></div><h3 class="font-display text-2xl font-bold mt-5">${esc(t[1])}</h3><p class="text-slate-400 mt-2 leading-7">${esc(t[2])}</p></div>`).join("");
+ contactInfo.innerHTML=`<a class="block glass rounded-xl p-4 hover:border-cyan-300/30" href="mailto:${esc(data.contact.email)}"><span class="text-xs text-slate-500">EMAIL</span><div class="mt-1">${esc(data.contact.email)}</div></a><div class="glass rounded-xl p-4"><span class="text-xs text-slate-500">LOCATION</span><div class="mt-1">${esc(data.contact.location)}</div></div>`;
+ const icons={YouTube:'bxl-youtube',Telegram:'bxl-telegram',WhatsApp:'bxl-whatsapp',LinkedIn:'bxl-linkedin',GitHub:'bxl-github',Blog:'bx-globe'};
+ const social=data.socials.map(x=>`<a target="_blank" rel="noopener" href="${esc(x[1])}" class="px-3 py-2 rounded-xl glass text-sm hover:text-cyan-300">${esc(x[0])}</a>`).join("");heroSocials.innerHTML=social;contactSocials.innerHTML=social;
+ hireMeBtn.href=(data.socials.find(x=>x[0]==='WhatsApp')||[])[1]||'https://wa.me/';
+ footerSocials.innerHTML=data.socials.map(x=>`<a target="_blank" rel="noopener" aria-label="${esc(x[0])}" title="${esc(x[0])}" href="${esc(x[1])}" class="w-10 h-10 rounded-xl glass grid place-items-center text-lg text-slate-400 hover:text-cyan-300 hover:border-cyan-300/40 transition"><i class="bx ${icons[x[0]]||'bx-link'}"></i></a>`).join("");
+ observe();initStatCounters();
+}
+function projectLinkLabel(url){return /(?:youtube\.com|youtu\.be)/i.test(url||'')?'Visit Channel':'Visit Website'}
+function renderProjects(filter){let arr=filter==="All"?data.projects:data.projects.filter(p=>p[2]===filter);projectsGrid.innerHTML=arr.map((p,i)=>`<article onclick="openProject(${data.projects.indexOf(p)},this)" class="reveal project-card card glass overflow-hidden rounded-3xl cursor-pointer"><div class="relative overflow-hidden"><img loading="lazy" class="project-img w-full" src="${esc(p[4])}" alt="${esc(p[0])}"><span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#0B0F19]/80 backdrop-blur-md border border-cyan-300/30 text-cyan-300 text-[11px] font-bold tracking-wider uppercase">${esc(p[2])}</span></div><div class="p-6 flex flex-col"><h3 class="font-display text-xl font-bold">${esc(p[0])}</h3><p class="text-sm text-slate-400 mt-3 leading-6">${esc(p[1])}</p><div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between gap-3"><div class="flex flex-wrap gap-1.5">${p[3].split("•").slice(0,2).map(t=>`<span class="text-[11px] px-2 py-1 rounded-md bg-white/5 text-slate-400">${esc(t.trim())}</span>`).join("")}</div><span class="shrink-0 text-sm font-semibold text-cyan-300">Details <i class="bx bx-right-arrow-alt align-middle text-lg"></i></span></div></div></article>`).join("");observe()}
+function openProject(i,card){let p=data.projects[i],gallery=(p[6]||p[4]).split('|').map(x=>x.trim()).filter(Boolean),url=p[7]||'',panel=modal.querySelector('.modal-panel');document.title=`${p[0]} | Sadeepa Lakshan`;modalImg.src=p[4];modalCat.textContent=p[2];modalTitle.textContent=p[0];modalDesc.textContent=p[5]||p[1];modalTags.innerHTML=p[3].split("•").map(t=>`<span class="px-3 py-1 rounded-lg bg-white/5 text-sm text-slate-300">${esc(t.trim())}</span>`).join("");modalGallery.innerHTML=gallery.map((src,n)=>`<img class="gallery-image w-full rounded-xl border border-white/10" src="${esc(src)}" alt="${esc(p[0])} preview ${n+1}">`).join("");modalLink.href=url;modalLink.innerHTML=`${projectLinkLabel(url)} <i class="bx bx-link-external"></i>`;modalLink.classList.toggle('hidden',!url);modal.classList.remove("hidden");modal.classList.add("grid");requestAnimationFrame(()=>{if(card){const a=card.getBoundingClientRect(),b=panel.getBoundingClientRect(),x=Math.max(0,Math.min(100,(a.left+a.width/2-b.left)/b.width*100)),y=Math.max(0,Math.min(100,(a.top+a.height/2-b.top)/b.height*100));panel.style.setProperty('--modal-origin',`${x}% ${y}%`)}modal.classList.add('modal-open')});document.body.style.overflow='hidden'}
+function closeProject(){modal.classList.remove('modal-open');document.title=originalPageTitle;setTimeout(()=>{modal.classList.add("hidden");modal.classList.remove("grid");document.body.style.overflow=''},580)}closeModal.onclick=closeProject;modal.onclick=e=>{if(e.target===modal)closeProject()};document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!modal.classList.contains('hidden'))closeProject()});
+themeBtn.onclick=()=>{document.documentElement.classList.toggle("light");localStorage.setItem("sadeepaTheme",document.documentElement.classList.contains("light")?"light":"dark")};
+if(localStorage.getItem("sadeepaTheme")==="light")document.documentElement.classList.add("light");
+menuBtn.onclick=()=>mobileNav.classList.toggle("hidden");document.querySelectorAll("#mobileNav a").forEach(a=>a.onclick=()=>mobileNav.classList.add("hidden"));
+contactForm.onsubmit=e=>{e.preventDefault();let f=new FormData(e.target);location.href=`mailto:${data.contact.email}?subject=${encodeURIComponent(f.get("subject"))}&body=${encodeURIComponent("Name: "+f.get("name")+"\nEmail: "+f.get("email")+"\n\n"+f.get("message"))}`};
+topBtn.onclick=()=>scrollTo({top:0,behavior:"smooth"});
+let io=new IntersectionObserver(es=>es.forEach(e=>e.target.classList.toggle("show",e.isIntersecting)),{threshold:.16});function observe(){document.querySelectorAll(".reveal").forEach(x=>io.observe(x))}
+function initStatCounters(){const counters=document.querySelectorAll('.stat-number');const counterObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{const el=entry.target,target=el.dataset.count,match=target.match(/\d+/),number=match?Number(match[0]):0,suffix=target.slice(match?match.index+match[0].length:0);if(!entry.isIntersecting){el.dataset.done='';el.textContent='0';return}if(el.dataset.done)return;el.dataset.done='1';let start=null;const tick=time=>{if(!start)start=time;const progress=Math.min((time-start)/900,1);el.textContent=Math.floor(number*(1-Math.pow(1-progress,3)))+suffix;if(progress<1)requestAnimationFrame(tick)};requestAnimationFrame(tick)}),{threshold:.55});counters.forEach(x=>counterObserver.observe(x))}
+function initInteractiveBackground(){
+ const glow=document.getElementById('cursorGlow'),particles=document.getElementById('particles'),orbs=document.querySelectorAll('.bg-orb');
+ for(let i=0;i<16;i++){const dot=document.createElement('span');dot.className='particle';dot.style.left=Math.random()*100+'%';dot.style.top=Math.random()*100+'%';dot.style.setProperty('--duration',(7+Math.random()*7)+'s');dot.style.setProperty('--drift',(-18+Math.random()*36)+'px');particles.appendChild(dot)}
+ document.addEventListener('pointermove',e=>{glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px';const x=(e.clientX/innerWidth-.5)*18,y=(e.clientY/innerHeight-.5)*18;orbs.forEach((orb,i)=>orb.style.transform=`translate(${x*(i?-.7:1)}px,${y*(i?-.7:1)}px)`)});
+}
+footerYear.textContent=new Date().getFullYear();render();setTimeout(()=>{preloader.style.opacity="0";preloader.style.transition=".6s";setTimeout(()=>preloader.remove(),600)},750);
+initInteractiveBackground();
+</script>
+</body>
+</html>
