@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sadeepa Lakshan | Creative Developer & Designer</title>
@@ -248,6 +248,11 @@ if(videoEditingService&&!data.services.some(service=>service[0]===videoEditingSe
 const journeyMilestones=defaultData.timeline.filter(item=>['YouTube Channel Started','Web Development Started','Video Editing Started','Graphic Design Started'].includes(item[1]));
 data.timeline=data.timeline.filter(item=>!['Frontend Development','Design Journey'].includes(item[1]));journeyMilestones.forEach(item=>{if(!data.timeline.some(current=>current[1]===item[1]))data.timeline.push(item)});data.timeline.sort((a,b)=>Number(b[0])-Number(a[0]));
 defaultData.projects.filter(p=>['Logo Design','YouTube Thumbnail Design'].includes(p[2])||['All-in-One Tools','Sadeepa Tech — YouTube Channel','Epic Cut Trailers — YouTube Channel','Sadeepa Tech Landing Page','Science Day Innovative Website','Science Day Mathematics Website'].includes(p[0])).forEach(project=>{if(!data.projects.some(current=>current[0]===project[0]))data.projects.push(project)});data.projects.forEach(project=>{if(defaultProjectLinks[project[0]])project[7]=defaultProjectLinks[project[0]];if(project[0]==='All-in-One Tools'){project[4]='all-in-one-tools-preview.png';project[6]='all-in-one-tools-preview.png'}if(thumbnailDetails[project[0]])project[5]=thumbnailDetails[project[0]];if(logoDetails[project[0]])project[5]=logoDetails[project[0]]});
+const hiddenSkillCards=['Logo & Branding','YouTube Thumbnails','T-Shirt Design'];
+const hiddenProjectCards=['Modern SaaS Landing Page','YouTube Channel Branding','Animated Logo Reveal','E-commerce T-Shirt Collection','Tech Brand Identity','Gaming Thumbnail Pack','Creative Portfolio UI','Social Media Graphics'];
+data.skills=data.skills.filter(skill=>!hiddenSkillCards.includes(skill[0]));
+data.projects=data.projects.filter(project=>!hiddenProjectCards.includes(project[0]));
+data.services=data.services.filter(service=>service[0]!=='T-Shirt & Merchandise Design');
 const esc=s=>String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
 function render(){
  heroName.textContent=data.name;heroTitle.textContent=data.title;heroTagline.textContent=data.tagline;availability.textContent=data.availability;profileImage.src=data.profileImage;
